@@ -13,7 +13,7 @@ And I check share
 Then I see error "Please enter a valid year."
 And I do not see error "When were you born?"
 
-Scenario: Type invalid email
+Scenario: Type invalid emailq
 Meta: @skip
 When I type email "test@mail.test"
 And I type confirmation email "wrong@mail.test"
